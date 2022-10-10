@@ -1,0 +1,251 @@
+@font-face {
+  font-family: Yanone Kaffeesatz;
+  src: url("../fonts/YanoneKaffeesatz-Regular.eot");
+  src: local("Yanone Kaffeesatz"), url("../fonts/YanoneKaffeesatz-Regular.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+} */
+
+body {
+  font: normal 0.8em arial, sans-serif;
+  background: #c4e9e8 url(../images/back.png) repeat-x;
+  color: #555;
+  font-family: Yanone Kaffeesatz !important;
+}
+
+#container {
+  background: transparent url(../images/grass.png) repeat-x bottom left;
+  /*   height: auto; */
+  /*   width: 100%; */
+  overflow: hidden;
+  width: 100%;
+}
+
+/* mio */
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imagen-sol {
+  position: absolute;
+  top: 0;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 10px solid #fff;
+}
+
+.logo-header {
+  width: 100%;
+}
+nav {
+  margin-top: 3rem;
+  margin: 1rem auto;
+  width: 100%;
+  background-color: #53c7fd;
+  height: 2rem !important;
+  display: flex;
+  align-items: center;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 10px solid #53c7fd;
+}
+
+#navbarSupportedContent {
+  padding-bottom: 0.5rem;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.enlace {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  padding-right: 2rem !important;
+}
+
+.prelast-enlace {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  padding-right: 1rem;
+}
+
+.nav-item {
+  padding: 0 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #53c7fd;
+}
+
+.enlace:hover {
+  color: #e5017d !important;
+}
+
+/* main */
+
+.div-article {
+  width: 55%;
+}
+
+article {
+}
+
+h1 {
+  font-size: 2rem !important;
+  color: #e5017d;
+}
+
+article p {
+  font-size: 1.1rem !important;
+}
+
+li {
+  font-size: 1.1rem;
+}
+.img-perro {
+  width: 159px;
+  height: 125px;
+  margin: 3rem 3rem 0 2rem;
+  padding: 6px;
+  border: 1px solid rgb(192, 191, 191);
+}
+
+/* aside */
+
+.div-aside {
+  width: 23% !important;
+}
+.div-aside aside {
+  width: 100%;
+  background-color: #f5feff;
+  border-radius: 10px;
+  border: 2px solid #c9e5e9;
+
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+h2 {
+  color: #80e804;
+  font-size: 1.2rem !important;
+}
+
+h3 {
+  font-size: 1rem !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
+ul li {
+  margin-top: 0.5rem;
+}
+
+aside p {
+  font-size: 1rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  margin: 1rem auto;
+  width: 100%;
+  background-color: #53c7fd;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 10px solid #53c7fd;
+  color: #fff;
+}
+
+p span {
+  text-decoration-line: underline;
+}
+.li-footer {
+  padding-top: 0.5rem;
+}
+
+.enlace-footer {
+  color: #fff;
+  padding: 0 0.4rem 0 0.2rem;
+  border-right: 1px solid white;
+}
+
+.enlace-footer-final {
+  color: #fff;
+  padding: 0 0.4rem 0 0.2rem;
+}
+
+/* Media queries Ancha */
+@media (max-width: 1200px) {
+  .enlace {
+    font-size: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .prelast-enlace {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 1rem !important;
+    padding-right: 1rem;
+  }
+
+  .dropdown {
+    padding: 0 !important;
+  }
+}
+
+/* Media queries SM */
+@media (max-width: 768px) {
+}
+/* Media queries EXTRA SM */
+
+@media (max-width: 576px) {
+}
+
+/* X-Small */
+
+@media (max-width: 375px) {
+}
